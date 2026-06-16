@@ -1,321 +1,335 @@
-# 3-Month Python Mastery Roadmap (12 Weeks)
+# Python Mastery Roadmap
 
-## Goal
-
-Become job-ready in Python for practical development, automation, backend work, and problem solving in 3 months with **4 hours/day**, **Sunday–Friday**, **Saturday off**.
+> A topic-first curriculum for becoming job-ready in Python — covering core language, intermediate patterns, data structures, and professional-grade development.
 
 ---
 
-## Daily 4-Hour Study Structure
+## Phase 1 — Core Python
 
-* **Hour 1:** Learn concepts (docs/tutorial/video)
-* **Hour 2:** Guided coding + notes
-* **Hour 3:** Practice problems (3–6)
-* **Hour 4:** Build/extend mini project + Git commit
+### 1. Python Basics
 
-**Sunday:** Add 1 extra hard challenge set (interview style)
-**Friday:** Assessment + revision + cleanup
-**Saturday:** Off
+The foundation of everything. Master these before moving on.
 
----
+- Variables, data types, and `None`
+- Type conversion (`int()`, `str()`, `float()`, etc.)
+- Operators and operator precedence
+- Input / output (`input()`, `print()`, f-strings)
+- String methods and formatting
+- Truthiness and boolean logic
 
-# Month 1 — Core Python + Problem Solving
-
-## Month 1 Milestone
-
-* Write scripts confidently
-* Solve easy/intermediate coding problems
-* Build CLI tools
-* Use Git/GitHub daily
-
-## Week 1 — Foundations
-
-### Day 1
-
-Install Python, VS Code, Git. Hello World. Variables. Input/output.
-Exercise: 10 small scripts.
-
-### Day 2
-
-Data types, type conversion.
-Exercise: calculator, temperature converter.
-
-### Day 3
-
-Operators, precedence.
-Exercise: 12 operator problems.
-
-### Day 4
-
-Strings.
-Mini project: password checker.
-
-### Day 5
-
-Lists, tuples.
-Exercise: list operations.
-
-### Day 6 (Sunday)
-
-Hard challenge: 8 beginner algorithm problems.
-
-## Week 2 — Control Flow
-
-### Day 1
-
-Sets, dictionaries.
-
-### Day 2
-
-if/elif/else.
-
-### Day 3
-
-for loops.
-
-### Day 4
-
-while loops.
-
-### Day 5
-
-Nested loops + patterns.
-
-### Day 6 (Sunday)
-
-Hard challenge: 10 loop-based questions.
-
-## Week 3 — Functions
-
-### Day 1
-
-Functions basics.
-
-### Day 2
-
-Arguments, kwargs.
-
-### Day 3
-
-Lambda.
-
-### Day 4
-
-Recursion.
-
-### Day 5
-
-Comprehensions.
-
-### Day 6 (Sunday)
-
-Mini project: CLI expense tracker.
-
-## Week 4 — Files + Errors + Assessment
-
-### Day 1
-
-File handling.
-
-### Day 2
-
-Exception handling.
-
-### Day 3
-
-Modules & packages.
-
-### Day 4
-
-pip + venv.
-
-### Day 5
-
-Month review.
-
-### Day 6 (Sunday)
-
-Project: File organizer.
+**Tools:** Python REPL, VS Code, Git  
+**Resources:** [Python Official Tutorial](https://docs.python.org/3/tutorial/) · [Corey Schafer – YouTube](https://www.youtube.com/c/Coreyms)
 
 ---
 
-# Month 2 — Intermediate + DSA + Databases
+### 2. Data Structures
 
-## Month 2 Milestone
+Python's built-in collections are central to almost every program.
 
-* Comfortable with OOP
-* Solve medium coding problems
-* Use DB + APIs
-* Build automation scripts
+- Lists — indexing, slicing, mutation
+- Tuples — immutability and packing/unpacking
+- Sets — uniqueness and set operations
+- Dictionaries — key-value access, `.get()`, `.items()`
+- Slicing syntax and sequence unpacking (`a, *b = ...`)
 
-## Week 5 — OOP
-
-Day 1 Classes/objects
-Day 2 Inheritance
-Day 3 Polymorphism
-Day 4 Encapsulation
-Day 5 Dunder methods
-Sunday: Library management app
-
-## Week 6 — Advanced Python
-
-Day 1 Iterators
-Day 2 Generators
-Day 3 Decorators
-Day 4 Context managers
-Day 5 Logging
-Sunday: Interview challenge set
-
-## Week 7 — DSA
-
-Day 1 Arrays + searching
-Day 2 Sorting
-Day 3 Stack/queue
-Day 4 Linked list
-Day 5 Trees basics
-Sunday: 12 LeetCode problems
-
-## Week 8 — Databases
-
-Day 1 SQLite
-Day 2 CRUD
-Day 3 SQL joins
-Day 4 MySQL basics
-Day 5 Integration
-Sunday: Contact manager DB project
+**Tools:** Python REPL  
+**Resources:** [Python Data Structures Docs](https://docs.python.org/3/tutorial/datastructures.html)
 
 ---
 
-# Month 3 — Professional Python
+### 3. Control Flow
 
-## Month 3 Milestone
+Shape how your programs make decisions and repeat work.
 
-* Build production-style apps
-* Deploy projects
-* Interview-ready
-* Portfolio ready
+- `if` / `elif` / `else`
+- `for` loops (iterating lists, ranges, dicts)
+- `while` loops
+- `break`, `continue`, `pass`
+- Nested loops and pattern printing
 
-## Week 9 — Automation
-
-Day 1 requests + JSON
-Day 2 web scraping (BeautifulSoup)
-Day 3 Selenium
-Day 4 file automation
-Day 5 task scheduling
-Sunday: Automation bot
-
-## Week 10 — Backend
-
-Day 1 Flask basics
-Day 2 routes/templates
-Day 3 REST API
-Day 4 auth basics
-Day 5 project structure
-Sunday: To-do API
-
-## Week 11 — Data Analysis
-
-Day 1 NumPy
-Day 2 Pandas
-Day 3 Matplotlib
-Day 4 CSV analysis
-Day 5 dashboard basics
-Sunday: sales analysis project
-
-## Week 12 — Advanced + Capstone
-
-Day 1 Multithreading
-Day 2 Multiprocessing
-Day 3 Asyncio
-Day 4 PyTest + debugging
-Day 5 deployment basics
-Sunday: Capstone finish
+**Tools:** LeetCode (Easy), HackerRank  
+**Resources:** [Exercism – Python Track](https://exercism.org/tracks/python) · [Codewars](https://www.codewars.com/)
 
 ---
 
-# Final Capstone Projects
+### 4. Functions
 
-1. Automation: email/report automation
-2. Web app: Flask task manager
-3. API: REST service with auth
-4. Portfolio: end-to-end real project
+Write reusable, composable logic.
 
----
+- Defining and calling functions
+- Positional args, `*args`, keyword args, `**kwargs`
+- Default parameter values
+- Return values and early returns
+- Lambda functions
+- List / dict / set comprehensions
 
-# Weekly Goals
-
-* Finish all daily exercises
-* Push code every day
-* 1 mini project/week
-* 15 DSA problems/week
-* 1 revision day/week
+**Tools:** LeetCode (Easy–Medium)  
+**Resources:** [Python Functions Docs](https://docs.python.org/3/tutorial/controlflow.html#defining-functions) · [Corey Schafer](https://www.youtube.com/c/Coreyms)
 
 ---
 
-# Top 20% Python Concepts (Highest ROI)
+### 5. Recursion
 
-* Functions
-* Dictionaries
-* OOP
-* List comprehensions
-* Exception handling
-* File handling
-* requests + APIs
-* Flask routing
-* SQL CRUD
-* Pandas
-* Debugging
-* Testing
+A pattern that unlocks tree traversal, divide-and-conquer, and backtracking.
+
+- Base case and recursive case
+- Call stack mental model
+- Factorial, Fibonacci, and sum of digits
+- Recursive list flattening
+- Memoisation basics
+
+**Tools:** LeetCode, Pen and paper for stack tracing
 
 ---
 
-# Job-Ready Fast Strategy
+### 6. Files and Error Handling
 
-* Build 4 public projects
-* Daily GitHub commits
-* Solve 100+ coding problems
-* Learn debugging
-* Read others' code
-* Write README for every project
-* Deploy 2 projects
-* Practice interview questions weekly
+Read, write, and protect your programs from failure.
 
----
+- Opening files — `open()`, modes (`r`, `w`, `a`)
+- The `with` statement (context managers)
+- Reading lines, writing text, working with paths
+- `try` / `except` / `else` / `finally`
+- Raising and creating custom exceptions
+- `pathlib` for cross-platform file paths
 
-# Best Free Resources
-
-## YouTube
-
-* Corey Schafer
-* freeCodeCamp
-* Tech With Tim
-* Programming with Mosh
-* NeetCode
-
-## Practice
-
-* LeetCode
-* HackerRank
-* Codewars
-* Exercism
-* Project Euler
-
-## Documentation
-
-* Python docs
-* Flask docs
-* PyTest docs
-* Pandas docs
+**Tools:** VS Code, Terminal  
+**Resources:** [Python I/O Docs](https://docs.python.org/3/tutorial/inputoutput.html)
 
 ---
 
-# Recommended GitHub Repo Structure
+### 7. Modules and Packages
 
-```text
-Python/
-├── month1/
-├── month2/
-├── month3/
+Organise code properly and leverage the ecosystem.
+
+- `import` and `from ... import`
+- Standard library highlights — `os`, `sys`, `math`, `datetime`, `random`, `json`
+- Installing packages with `pip`
+- Creating and using virtual environments (`venv`)
+- Structuring your own modules
+
+**Tools:** pip, venv, Terminal  
+**Resources:** [PyPI](https://pypi.org/) · [Python Modules Docs](https://docs.python.org/3/tutorial/modules.html)
+
+---
+
+## Phase 2 — Intermediate Python + DSA
+
+### 8. Object-Oriented Programming (OOP)
+
+Model real-world problems as objects and classes.
+
+- Classes, instances, and `__init__`
+- Instance vs. class attributes
+- Inheritance and `super()`
+- Polymorphism and method overriding
+- Encapsulation — public, protected, private conventions
+- Dunder / magic methods (`__str__`, `__repr__`, `__len__`, `__eq__`)
+
+**Tools:** VS Code, GitHub  
+**Resources:** [Corey Schafer – OOP](https://www.youtube.com/watch?v=ZDa-Z5JzLYM) · [Python Classes Docs](https://docs.python.org/3/tutorial/classes.html)
+
+---
+
+### 9. Advanced Python Features
+
+Power features used in production code and libraries.
+
+- Iterators and the iterator protocol (`__iter__`, `__next__`)
+- Generators and `yield` — lazy evaluation
+- Decorators — wrapping functions and preserving metadata (`@functools.wraps`)
+- Context managers — `__enter__` / `__exit__` and `contextlib`
+- `logging` module — levels, handlers, formatters
+- Type hints and `typing` module
+
+**Tools:** VS Code, pytest  
+**Resources:** [Real Python](https://realpython.com/) · [Python Docs](https://docs.python.org/3/)
+
+---
+
+### 10. Data Structures and Algorithms (DSA)
+
+Core computer science knowledge for technical interviews and efficient code.
+
+| Topic | Key Concepts |
+|---|---|
+| Arrays | Two pointers, sliding window, binary search |
+| Sorting | Bubble, selection, insertion, merge, quick sort |
+| Stack & Queue | `collections.deque`, monotonic stack |
+| Linked List | Singly linked, reversal, cycle detection |
+| Hash Maps | Frequency counting, anagram detection |
+| Trees | BFS, DFS, BST operations |
+| Recursion | Backtracking, divide and conquer |
+| Complexity | Big-O time and space analysis |
+
+**Tools:** LeetCode, NeetCode, HackerRank  
+**Resources:** [NeetCode Roadmap](https://neetcode.io/) · [LeetCode](https://leetcode.com/)
+
+---
+
+### 11. Databases and SQL
+
+Store and query structured data from Python programs.
+
+- SQLite — lightweight embedded database
+- CRUD — `CREATE`, `READ`, `UPDATE`, `DELETE`
+- SQL joins — `INNER`, `LEFT`, `RIGHT`
+- Aggregation — `GROUP BY`, `COUNT`, `SUM`, `AVG`
+- MySQL / PostgreSQL connection from Python
+- SQLAlchemy ORM — models, sessions, queries
+
+**Tools:** SQLite, MySQL, SQLAlchemy  
+**Resources:** [SQLite Docs](https://www.sqlite.org/docs.html) · [SQLAlchemy Docs](https://docs.sqlalchemy.org/)
+
+---
+
+## Phase 3 — Professional Python
+
+### 12. Automation and Scripting
+
+Automate the boring stuff — files, the web, and the system.
+
+- `requests` library — HTTP GET/POST, working with JSON APIs
+- Web scraping with `BeautifulSoup` — parsing HTML, extracting data
+- Selenium WebDriver — browser automation, filling forms
+- File and folder automation — renaming, sorting, watching directories
+- Task scheduling — `schedule` library and cron jobs
+- Email automation with `smtplib` and `email`
+
+**Tools:** requests, BeautifulSoup, Selenium, schedule  
+**Resources:** [Selenium Docs](https://www.selenium.dev/documentation/) · [Real Python](https://realpython.com/)
+
+---
+
+### 13. Backend Web Development — Flask
+
+Build HTTP APIs and web applications.
+
+- Flask app structure and factory pattern
+- Routes — path parameters, query strings, HTTP methods
+- Jinja2 templating — variables, loops, template inheritance
+- REST API design — status codes, JSON responses
+- Request/response lifecycle
+- Basic authentication — sessions and JWT
+
+**Tools:** Flask, Postman, SQLite  
+**Resources:** [Flask Docs](https://flask.palletsprojects.com/) · [freeCodeCamp Flask](https://www.freecodecamp.org/)
+
+---
+
+### 14. Data Analysis
+
+Work with data using Python's scientific stack.
+
+- NumPy — arrays, vectorised operations, broadcasting
+- Pandas — DataFrames, Series, indexing with `.loc` / `.iloc`
+- Data cleaning — handling nulls, duplicates, type conversion
+- Grouping and aggregation — `groupby`, `pivot_table`
+- Matplotlib and Seaborn — line, bar, scatter, histogram charts
+- Reading and writing CSV / Excel files
+
+**Tools:** NumPy, Pandas, Matplotlib, Jupyter Notebook  
+**Resources:** [Pandas Docs](https://pandas.pydata.org/docs/) · [NumPy Docs](https://numpy.org/doc/)
+
+---
+
+### 15. Concurrency and Async
+
+Write programs that do multiple things at once.
+
+- `threading` module — when to use threads, `Thread`, `Lock`
+- `multiprocessing` — bypassing the GIL, `Pool`, shared memory
+- `asyncio` — event loop, `async def`, `await`
+- `aiohttp` — async HTTP client for high-throughput scraping/requests
+- Choosing the right tool — I/O-bound vs. CPU-bound tasks
+
+**Tools:** asyncio, aiohttp, concurrent.futures  
+**Resources:** [Python asyncio Docs](https://docs.python.org/3/library/asyncio.html) · [Real Python – Async IO](https://realpython.com/async-io-python/)
+
+---
+
+### 16. Testing and Debugging
+
+Write code you can trust and fix bugs with confidence.
+
+- `unittest` — `TestCase`, setup/teardown, assertions
+- `pytest` — fixtures, parametrize, marks, plugins
+- Mocking with `unittest.mock` — patching, side effects
+- VS Code debugger — breakpoints, watch expressions, call stack
+- Code profiling — `cProfile`, `timeit`, identifying bottlenecks
+
+**Tools:** pytest, VS Code debugger, cProfile  
+**Resources:** [PyTest Docs](https://docs.pytest.org/) · [Real Python – Testing](https://realpython.com/pytest-python-testing/)
+
+---
+
+### 17. Deployment and DevOps Basics
+
+Ship your code to production.
+
+- Git branching strategies — feature branches, PRs, merge vs. rebase
+- Environment variables and `.env` files (`python-dotenv`)
+- Docker basics — `Dockerfile`, images, containers
+- Deploying to Railway / Heroku / Render
+- GitHub Actions — CI/CD pipelines, running tests on push
+
+**Tools:** Docker, GitHub Actions, Railway, python-dotenv  
+**Resources:** [Docker Docs](https://docs.docker.com/) · [GitHub Actions Docs](https://docs.github.com/en/actions)
+
+---
+
+## High-ROI Topics (Top 20%)
+
+These appear most frequently in real projects and interviews. Prioritise these if time is limited.
+
+| Priority | Topic |
+|---|---|
+| ★★★ | Dictionaries and data structures |
+| ★★★ | Functions, args, and comprehensions |
+| ★★★ | OOP — classes, inheritance, dunder methods |
+| ★★★ | Exception handling |
+| ★★★ | `requests` and REST APIs |
+| ★★★ | SQL CRUD and joins |
+| ★★★ | Pandas fundamentals |
+| ★★ | File handling |
+| ★★ | Flask routing and REST API design |
+| ★★ | Decorators and context managers |
+| ★★ | Debugging and testing |
+| ★★ | Git and GitHub |
+
+---
+
+## Capstone Projects
+
+Build these to demonstrate end-to-end skills for your portfolio.
+
+1. **File Organiser** — scans a folder, sorts files by type/date, generates a log report
+2. **CLI Expense Tracker** — CRUD app with SQLite, categories, monthly summaries
+3. **REST API** — Flask task manager with auth, JSON endpoints, and pytest coverage
+4. **Automation Bot** — scrapes data from a site, cleans it with Pandas, emails a daily report
+5. **Full-stack App** — Flask backend + Jinja2 frontend, deployed to Railway with GitHub Actions CI
+
+---
+
+## Practice Platforms
+
+| Platform | Best For |
+|---|---|
+| [LeetCode](https://leetcode.com/) | DSA and interview prep |
+| [HackerRank](https://www.hackerrank.com/) | Domain-specific challenges |
+| [Codewars](https://www.codewars.com/) | Short kata-style problems |
+| [Exercism](https://exercism.org/tracks/python) | Mentored, concept-driven practice |
+| [Project Euler](https://projecteuler.net/) | Math + algorithm problems |
+
+---
+
+## Recommended GitHub Structure
+
+```
+python/
+├── phase1_core/
+├── phase2_intermediate/
+├── phase3_professional/
 ├── projects/
 ├── challenges/
 └── README.md
@@ -323,12 +337,13 @@ Python/
 
 ---
 
-# Success Rule
+## Job-Ready Checklist
 
-Every day:
-
-1. Learn
-2. Code
-3. Build
-4. Push to GitHub
-5. Review mistakes
+- [ ] 4 public projects on GitHub with READMEs
+- [ ] Daily commits — consistent green contribution graph
+- [ ] 100+ coding problems solved (LeetCode / HackerRank)
+- [ ] 2 projects deployed (Railway, Heroku, or Render)
+- [ ] Can explain your code and walk through it in an interview
+- [ ] Have read other people's Python code on GitHub
+- [ ] Comfortable debugging with breakpoints (not just `print`)
+- [ ] Know how to write a test for any function you write
